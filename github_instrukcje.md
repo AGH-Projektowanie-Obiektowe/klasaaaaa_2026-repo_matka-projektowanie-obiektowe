@@ -17,8 +17,25 @@ W tym semestrze będziemy pracować z wykorzystaniem **GitHub Classroom**. Każd
 
 ---
 
+Tutaj potencjalnie mogą pojawić się problamy z autentykacją - bo repo jest prywatne i microsoft podobno tak fantastycznie poczarował że nie da się po prostu clona zrobić.
+
+Tu macie poradnik jak sobie z tym poradzić  - https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account
+
 ## Krok 2: Konfiguracja synchronizacji (UPSTREAM) – TYLKO RAZ
-Abyś mógł pobierać nowe zadania, które będę wrzucał do mojego repozytorium, musisz dodać je jako tzw. **upstream** (źródło). Wykonaj tę komendę wewnątrz folderu z projektem:
+
+Tu chodzi o to żebyście sobie pobierali zmiany/nowe laby z mojego repo.
+
+Są dwie opcje
+
+### Przez github
+Na swoim repo klikacie przycisk "Sync fork" - reszta dzieje się sama
+
+
+### Przez terminal
+
+Tutaj trzeba pare kroczków
+1. Skopiuj link do repa matki (SSH lub Http jak chcecie)
+2. Ustaw to repo jako **upstream**
 
 ```bash
 git remote add upstream https://github.com/AGH-Projektowanie-Obiektowe/klasaaaaa_2026-repo_matka-projektowanie-obiektowe.git
@@ -27,6 +44,8 @@ git remote add upstream https://github.com/AGH-Projektowanie-Obiektowe/klasaaaaa
 *Teraz Twoje repozytorium ma dwa połączenia:*
 * `origin` – Twoje prywatne repozytorium (tutaj wrzucasz rozwiązania).
 * `upstream` – Moje repozytorium (stąd pobierasz nowe zadania).
+
+3. Zmiany fetchuje poprzez:
 
 ---
 
