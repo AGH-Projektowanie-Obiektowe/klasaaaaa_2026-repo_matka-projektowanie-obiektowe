@@ -7,9 +7,9 @@ W tym semestrze będziemy pracować z wykorzystaniem **GitHub Classroom**. Każd
 ## Krok 1: Akceptacja zadania i klonowanie
 1. Kliknij w link do GitHub Classroom otrzymany od prowadzącego.
 2. Znajdź swoje imię i nazwisko na liście (lub dołącz do klasy, jeśli listy jeszcze nie ma).
-3. GitHub automatycznie utworzy Twoje prywatne repozytorium o nazwie `repo-matka-TwojLogin`.
-4. Na maila dodatkowo dostaniesz zaproszenie do organizacji - zaakceptuj je.
-5. Sklonuj swoje nowe repozytorium na dysk komputera:
+3. GitHub automatycznie utworzy Twoje prywatne repozytorium o nazwie `repo-matka-TwojLogin`. Prawdodpobonie na końcu pojawi się info o błędzie - zignoruj
+4. Na githubie po wejściu `profil` -> `organizacje` powinna ci się wyświetlić organizacja **repo-matka-nick** - kliknij i zaakceptuj
+4. Sklonuj swoje nowe repozytorium na dysk komputera:
    ```bash
    git clone https://github.com/NASZA-ORGANIZACJA/repo-matka-TwojLogin.git
    cd repo-matka-TwojLogin
