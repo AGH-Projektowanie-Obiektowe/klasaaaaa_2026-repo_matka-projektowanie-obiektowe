@@ -45,7 +45,7 @@ git push origin main
 ---
 
 ## Krok 4: Praca nad zadaniem i oddawanie (Pull Request)
-Pracujemy na tzw. **branchach** (gałęziach). To profesjonalny sposób na rozwijanie kodu.
+Zmiany mają byc robione na oddzielnym branchu - tak żeby można było łatwo utworzyc Pull Requesta do waszego maina.
 
 1. **Stwórz nową gałąź dla danego laboratorium:**
    ```bash
@@ -64,11 +64,12 @@ Pracujemy na tzw. **branchach** (gałęziach). To profesjonalny sposób na rozwi
 5. **Otwórz Pull Request (PR):**
    Wejdź na stronę swojego repozytorium na GitHubie. Zobaczysz żółty pasek z przyciskiem **"Compare & pull request"**. Kliknij go i stwórz PR. 
 
-**To właśnie w tym Pull Requestcie będę sprawdzał Twój kod i zostawiał uwagi.**
+**Na tym Pull Requescie odbędzie się tzw. Code Review - czyli będę pisał komentarze do kodu itp.**
 
 ---
 
 ## Krótka ściąga komend:
+Jak ktoś używa jakiegoś GUI do gita to go to totalnie nie interesuje, ale jak ktoś lubi z terminala:
 * `git status` – sprawdź, co zmieniłeś.
 * `git pull upstream main` – pobierz nowe laby od prowadzącego.
 * `git push origin main` – wyślij wszystko do swojego repo.
