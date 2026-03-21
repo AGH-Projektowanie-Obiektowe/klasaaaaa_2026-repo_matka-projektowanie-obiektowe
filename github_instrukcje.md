@@ -45,8 +45,6 @@ git remote add upstream https://github.com/AGH-Projektowanie-Obiektowe/klasaaaaa
 * `origin` – Twoje prywatne repozytorium (tutaj wrzucasz rozwiązania).
 * `upstream` – Moje repozytorium (stąd pobierasz nowe zadania).
 
-3. Zmiany fetchuje poprzez:
-
 ---
 
 ## Krok 3: Cotygodniowa aktualizacja (Pobieranie zadań)
