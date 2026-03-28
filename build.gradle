@@ -5,6 +5,10 @@ subprojects {
         mavenCentral() // Skąd brać biblioteki (jeśli będziesz ich potrzebować)
     }
 
+    dependencies {
+        implementation 'org.jetbrains:annotations:24.0.0'
+    }
+
     java {
         toolchain {
             languageVersion = JavaLanguageVersion.of(25) // Ustaw swoją wersję Javy

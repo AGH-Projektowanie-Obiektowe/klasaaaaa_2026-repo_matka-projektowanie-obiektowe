@@ -23,6 +23,8 @@ Tu macie poradnik jak sobie z tym poradzić  - https://docs.github.com/en/authen
 
 ## Krok 2: Konfiguracja synchronizacji (UPSTREAM) – TYLKO RAZ
 
+**ISTNIEJE OPCJA ŻE TO NIE ZADZIAŁA - POMINĄĆ TEN KROK JAK NIE ZADZIAŁA (bo np jakaś autentykacja czy coś)**
+
 Tu chodzi o to żebyście sobie pobierali zmiany/nowe laby z mojego repo.
 
 Są dwie opcje
@@ -52,10 +54,10 @@ git remote add upstream https://github.com/AGH-Projektowanie-Obiektowe/klasaaaaa
 
 ```bash
 # 1. Pobierz zmiany ze źródła
-git pull upstream main
+git pull upstream Main
 
 # 2. Wyślij aktualizację do swojego prywatnego repo na GitHubie
-git push origin main
+git push origin Main
 ```
 *Twoje dotychczasowe rozwiązania w folderze `lab1` nie zostaną nadpisane – Git automatycznie "doklei" nowy folder `lab2`. (a przynajmniej taka mam nadzieje xd)*
 
@@ -88,8 +90,8 @@ Zmiany mają byc robione na oddzielnym branchu - tak żeby można było łatwo u
 ## Krótka ściąga komend:
 Jak ktoś używa jakiegoś GUI do gita to go to totalnie nie interesuje, ale jak ktoś lubi z terminala:
 * `git status` – sprawdź, co zmieniłeś.
-* `git pull upstream main` – pobierz nowe laby od prowadzącego.
-* `git push origin main` – wyślij wszystko do swojego repo.
+* `git pull upstream Main` – pobierz nowe laby od prowadzącego.
+* `git push origin Main` – wyślij wszystko do swojego repo.
 * `git branch` – sprawdź, na której gałęzi jesteś.
 
 Powodzenia!
