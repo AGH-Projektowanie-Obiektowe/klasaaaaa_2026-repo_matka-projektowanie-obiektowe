@@ -1,4 +1,4 @@
-## Lab 3:  To the moon
+## Lab 3: Galactic Cruise
 
 Celem laba jest zapoznanie studentów z trzema wzorcami projektowymi:
  - Builder
