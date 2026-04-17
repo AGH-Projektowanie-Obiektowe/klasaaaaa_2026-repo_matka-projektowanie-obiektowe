@@ -5,13 +5,13 @@ Celem laba jest zapoznanie studentów z trzema wzorcami projektowymi:
  - Factory (lub factory method)
  - Strategia
 
-
  Poprzez stworzenie wymagań, których zaimplementowanie lekko wymusza użycie konkretnego wzorca (o ile kod ma być piękny, śliczny i wgl.). Dodatkowo różne wymagania mogą wymuszać użycie wzorca w różny sposób - tak aby zobrazować że wzorzec to tylko pewna idea, która można sobie modyfikować pod własne potrzeby.
 
  ### Opis systemu
  System który będzie tworzony to prosty system do rezerwacji wycieczek kosmicznych. Mamy dwa rodzaje wycieczek:
   - Kolonialną
   - Naukową
+
 Każda z nich posiada jakieś swoje atrybuty + obiekt z podstawowymi atrybutami wspólnymi dla każdej wycieczki (obiekt `SpaceTrip`).
 
 
@@ -26,6 +26,7 @@ Obiekt `SpaceTrip` posiada parę opcjonalnych pól (nie za dużo żeby się dłu
 
  ### Zadanie 2: Factory (lub factory method)
  `ReservationPlaner` ma oddzielne metody dla dwóch typów wycieczek - a różnić ma się w sumie tylko sposób ich tworzenia. (są opisane komentarzami w kodzie, ale daje tu też dla formalności)
+
  **Wymagania dla wycieczki kolonialnej**:
   - Jeśli celem jest Mars, dodajemy 1000 do subsydium
   - Jeśli ilość dodatkowych zbiorników tlenu jest większa niż 5, odejmujemy 2000 od subsydium
@@ -54,3 +55,8 @@ Tutaj wojowniku możesz wybrać dwie drogi (która chcesz):
   - Jak nasza wycieczka odbywa się więcej niż 90 dni od moment rezerwacji - cena spada o 30% (lubimy planowanie z wyprzedzeniem)
 
 Co prawda logika tego nie jest jakaś potężna - ale może się zmienić (agile i te sprawy) i jest ważna - bezpośrednio wpływa na to ile zarabiamy. Ograj to wzorcem strategia, tak aby odpowiadał za zmianę ceny. A skąd wziąć odpowiednią strategie? (aka gdzie te dni ogarnąć) - może jakiś inny wzorzec to może załatwić.
+
+### Przydatne materiały
+
+- [Prezentacja z zajęć](https://canva.link/9y9yn6td29da651)
+- [Refactoring Guru](https://refactoring.guru/pl/design-patterns/creational-patterns)

@@ -18,7 +18,7 @@ public class SpaceTrip {
             LocalDate launchDate,
             @Nullable Integer extraOxygenTanks,
             int durationDays,
-            String shipModuleType
+            @Nullable String shipModuleType
     ) {
         this.destination = destination;
         this.insuranceLimit = insuranceLimit;
