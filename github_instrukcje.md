@@ -1,6 +1,6 @@
 # 🚀 Instrukcja dla studentów: Laboratoria 2026
 
-W tym semestrze będziemy pracować z wykorzystaniem **GitHub Classroom**. Każdy z Was będzie miał własne prywatne repozytorium, do którego ja będę co tydzień wrzucał nowe zadania (foldery `lab1`, `lab2` itd.).
+W tym semestrze będziemy pracować z wykorzystaniem **GitHub Classroom**. Każdy z Was będzie miał własne prywatne repozytorium, które co tydzień trzeba będzie zsynchronić z **Repozytorium Matką** (czyli moim repo). Tam będą pojawiały się kolejne laby (foldery `lab1`, `lab2` itd.).
 
 ---
 
@@ -9,11 +9,12 @@ W tym semestrze będziemy pracować z wykorzystaniem **GitHub Classroom**. Każd
 2. Znajdź swoje imię i nazwisko na liście (lub dołącz do klasy, jeśli listy jeszcze nie ma).
 3. GitHub automatycznie utworzy Twoje prywatne repozytorium o nazwie `repo-matka-TwojLogin`. Prawdodpobonie na końcu pojawi się info o błędzie - zignoruj
 4. Na githubie po wejściu `profil` -> `organizacje` powinna ci się wyświetlić organizacja **repo-matka-nick** - kliknij i zaakceptuj
-4. Sklonuj swoje nowe repozytorium na dysk komputera:
+5. Sklonuj swoje nowe repozytorium na dysk komputera:
    ```bash
    git clone https://github.com/NASZA-ORGANIZACJA/repo-matka-TwojLogin.git
    cd repo-matka-TwojLogin
    ```
+Od tego momentu powinniście mieć widoczne repozytorium w `profil` -> `organizacje` -> `AGH-Projektowanie-Obiektowe` -> `Repositories`
 
 ---
 
