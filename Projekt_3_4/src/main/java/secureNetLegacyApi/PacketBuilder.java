@@ -1,4 +1,4 @@
-package SecureNetLegacyApi;
+package secureNetLegacyApi;
 
 import java.util.ArrayList;
 import java.util.List;

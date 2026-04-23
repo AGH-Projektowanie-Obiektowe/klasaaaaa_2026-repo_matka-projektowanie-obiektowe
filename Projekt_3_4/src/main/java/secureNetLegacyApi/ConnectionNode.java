@@ -1,4 +1,4 @@
-package SecureNetLegacyApi;
+package secureNetLegacyApi;
 
 // Plik: ConnectionNode.java
 public class ConnectionNode {

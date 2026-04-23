@@ -1,4 +1,4 @@
-package SecureNetLegacyApi;
+package secureNetLegacyApi;
 
 // Plik: SessionToken.java
 public class SessionToken {

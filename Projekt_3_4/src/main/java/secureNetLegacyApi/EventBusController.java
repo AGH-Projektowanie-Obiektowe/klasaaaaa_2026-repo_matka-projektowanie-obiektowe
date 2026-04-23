@@ -1,4 +1,4 @@
-package SecureNetLegacyApi;
+package secureNetLegacyApi;
 
 public class EventBusController {
     private SessionToken activeSession;

@@ -1,4 +1,4 @@
-package SecureNetLegacyApi;
+package secureNetLegacyApi;
 
 // Plik: LegacyCommand.java
 public class LegacyCommand {

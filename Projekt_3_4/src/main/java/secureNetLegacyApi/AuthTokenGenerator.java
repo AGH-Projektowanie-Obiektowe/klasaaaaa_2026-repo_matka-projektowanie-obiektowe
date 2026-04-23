@@ -1,4 +1,4 @@
-package SecureNetLegacyApi;
+package secureNetLegacyApi;
 
 public class AuthTokenGenerator {
     public SessionToken generateToken(String hashedCredentials) {

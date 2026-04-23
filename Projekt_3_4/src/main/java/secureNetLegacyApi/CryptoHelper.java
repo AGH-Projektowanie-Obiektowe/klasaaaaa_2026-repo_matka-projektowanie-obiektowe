@@ -1,4 +1,4 @@
-package SecureNetLegacyApi;
+package secureNetLegacyApi;
 
 // Plik: CryptoHelper.java
 public class CryptoHelper {
