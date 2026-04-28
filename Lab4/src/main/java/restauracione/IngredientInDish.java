@@ -1,10 +1,10 @@
-﻿package restauracione;
+package restauracione;
 
 public class IngredientInDish {
     private Ingredient ingredient;
-    private double weightInUnits;
+    private int weightInUnits;
 
-    public IngredientInDish(Ingredient ingredient, double weightInUnits) {
+    public IngredientInDish(Ingredient ingredient, int weightInUnits) {
         this.ingredient = ingredient;
         this.weightInUnits = weightInUnits;
     }

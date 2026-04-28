@@ -1,4 +1,4 @@
-﻿package restauracione;
+package restauracione;
 
 public class Ingredient {
     private IngredientType type;
