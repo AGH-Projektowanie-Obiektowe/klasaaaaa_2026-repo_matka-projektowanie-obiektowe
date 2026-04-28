@@ -37,3 +37,7 @@ Waszym zadaniem jest nadbudowanie na nich docelowych funkcjonalności.
 * **Opis biznesowy:** Złożenie zamówienia wiąże się paroma operacjami. Trzeba faktycznie stworzyć zamówienie, zapisać je do `DailyRegistry`, oraz z racji że dysponujemy stanem magazynowym składników (i innych elementów) zmniejszyć ilość danych składników (lub odmówić zrobienia zamówenia przez brak składników na stanie). Dodatkowo klienci czasami mogą wyjść przedwcześnie, odwołując zamówienie, lub też kelner który wklepuje je do systemu może się pomylić, więc przydałaby się opcja cofnięcia.
 * **Wzorzec:** Komenda (Command)
 * **Techniczne tipy** Prosta komenda przyjmująca *chyba* tylko zamówienie i realizująca wszystkie operacje wspomniane powyżej. Metoda undo po prostu robiła by to samo tylko odwrotnie. Warto rozważyć tutaj jakąś zwrotke z metody `Execute` która informowałaby o statusie wykonania komendy (sukces/brak_składników) - ogólnie jest to coś co się robi, bo lepiej *handlować rzeczy gracefuly* niż rzucać wyjątek. Dodatkowo warto przemyśleć czy może da się jakoś uprościć klasę `Warehouse`?
+
+## Przydatne materiały
+
+- [Prezentacja z zajęć](https://canva.link/fj399wto9wj0b62)
