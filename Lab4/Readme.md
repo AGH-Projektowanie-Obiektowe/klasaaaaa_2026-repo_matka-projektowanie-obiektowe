@@ -26,15 +26,14 @@ Waszym zadaniem jest nadbudowanie na nich docelowych funkcjonalności.
 
 ### 2. Personalizacja dań dodatkami
 * **Opis biznesowy:** Klienci często proszą o modyfikacje, które można zastosować do właściwie każdego dania z karty. Wśród modyfikacji wyróżniamy:
-* **Przykładowe dekoratory do zaimplementowania:**
     * **`TakeawayDecorator` (Na wynos)** – dolicza stałą kwotę za opakowanie (np. 2 PLN).
     * **`ExtraSauceDecorator` (Dodatkowy sos)** – dolicza koszt sosu (3 PLN)
     * **`SpicyDecorator` (Wersja pikantna)** – dolicza drobną kwotę za ostre przyprawy/papryczki (np. 1.50 PLN).
 
-* **Wymagany wzorzec:** Dekorator (Decorator)
+* **Wzorzec:** Dekorator (Decorator)
 * **Techniczne tipy** Chyyba samo narzucające się
 
 ### 3. Zarządzanie procesem zamówień
 * **Opis biznesowy:** Złożenie zamówienia wiąże się paroma operacjami. Trzeba faktycznie stworzyć zamówienie, zapisać je do `DailyRegistry`, oraz z racji że dysponujemy stanem magazynowym składników (i innych elementów) zmniejszyć ilość danych składników (lub odmówić zrobienia zamówenia przez brak składników na stanie). Dodatkowo klienci czasami mogą wyjść przedwcześnie, odwołując zamówienie, lub też kelner który wklepuje je do systemu może się pomylić, więc przydałaby się opcja cofnięcia.
-* **Wymagany wzorzec:** Komenda (Command)
+* **Wzorzec:** Komenda (Command)
 * **Techniczne tipy** Prosta komenda przyjmująca *chyba* tylko zamówienie i realizująca wszystkie operacje wspomniane powyżej. Metoda undo po prostu robiła by to samo tylko odwrotnie. Warto rozważyć tutaj jakąś zwrotke z metody `Execute` która informowałaby o statusie wykonania komendy (sukces/brak_składników) - ogólnie jest to coś co się robi, bo lepiej *handlować rzeczy gracefuly* niż rzucać wyjątek.
