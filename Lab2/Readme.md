@@ -1,4 +1,4 @@
-﻿## Lab 2: Dzwoni kuzyn
+## Lab 2: Dzwoni kuzyn
 
 Celem laba jest zapoznanie studentów z zasadami SOLID, jak i innymi podstawowymi regułami, którymi należy się kierować w trakcie implementacji systemu.
 
