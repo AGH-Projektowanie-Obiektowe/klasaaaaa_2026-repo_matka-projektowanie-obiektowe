@@ -26,11 +26,10 @@ public class TicketService {
         return applyExtraFees(priceAfterDiscount, request);
     }
 
-    // Kuszący private
     private double applyExtraFees(double currentPrice, TicketRequest request) {
         if (request.isVip()) {
             return currentPrice + 50.0;
         }
-        return currentPrice + 5.0; // Standardowa opłata serwisowa
+        return currentPrice + 5.0;
     }
 }
